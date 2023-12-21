@@ -1,0 +1,12 @@
+questions for calvin:
+
+1) link color?
+2) are margins/spacing okay?
+3) custom scrollbar? light/dark theme?
+4) spacing between sections okay?
+5) how much spacig do you want on the contact section?
+6) do you want each section to take up a full page height?
+7) for the contact section, what should be a link and what should it link to? should they be 
+   underlined like a link or just have a hover effect? how should the icons/text react/animate?
+8) new layout w/ individual pages? do you want a header/footer for each page?
+9) what do you want to fade in? what part and what effect/direction?
