@@ -36,7 +36,7 @@
 	.isenberg {
 		width: 50%;
 		align-self: stretch;
-		background: url('images/isenberg.jpg');
+		background: url('/images/isenberg.png');
 		background-size: cover;
 		background-repeat: no-repeat;
 		background-position: right center;
