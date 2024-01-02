@@ -1,10 +1,10 @@
 <!-- HTML. -->
 <main>
 	<div class='navigation-bar'>
-		<a href={getUrl('')} class='item item-fast'>Home</a>
-		<a href={getUrl('professional-experience')} class='item item-fast'>Professional Experience</a>
-		<a href={getUrl('educational-experience')} class='item item-smooth'>Educational Experience</a>
-		<a href={getUrl('contact-me')} class='item item-smooth'>Contact Me</a>
+		<a href='' on:click={() => openPage('home')} class='item item-fast'>Home</a>
+		<a href='' on:click={() => openPage('professional-experience')} class='item item-fast'>Professional Experience</a>
+		<a href='' on:click={() => openPage('educational-experience')} class='item item-smooth'>Educational Experience</a>
+		<a href='' on:click={() => openPage('contact-me')} class='item item-smooth'>Contact Me</a>
 	</div>
 </main>
 
@@ -50,7 +50,13 @@
 	/*
 	Add the base URL to the beginning of the path.
 	*/
-	function getUrl(page: string): string {
-		return `${base}/${page}`;
+	function openPage(page: string): void {
+		// Home page is the base URL.
+		if(page === 'home') {
+			page = '';
+		}
+
+		// Open the page in the current tab.
+		window.open(`${base}/${page}`, '_self');
 	}
 </script>

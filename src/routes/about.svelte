@@ -29,7 +29,7 @@
 				</div>
 			</div>
 			<div class='personal-photo-wrapper'>
-				<img class='personal-photo' src='/images/calvin-selfie.png' alt='Calvin Conboy Personal Photo'>
+				<img class='personal-photo' src='./images/calvin-selfie.png' alt='Calvin Conboy Personal Photo'>
 			</div>
 		</div>
 	</section>
