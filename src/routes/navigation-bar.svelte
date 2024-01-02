@@ -1,10 +1,10 @@
 <!-- HTML. -->
 <main>
 	<div class='navigation-bar'>
-		<a href='/' class='item item-fast'>Home</a>
-		<a href='/professional-experience' class='item item-fast'>Professional Experience</a>
-		<a href='/educational-experience' class='item item-smooth'>Educational Experience</a>
-		<a href='/contact-me' class='item item-smooth'>Contact Me</a>
+		<a href={getUrl('')} class='item item-fast'>Home</a>
+		<a href={getUrl('professional-experience')} class='item item-fast'>Professional Experience</a>
+		<a href={getUrl('educational-experience')} class='item item-smooth'>Educational Experience</a>
+		<a href={getUrl('contact-me')} class='item item-smooth'>Contact Me</a>
 	</div>
 </main>
 
@@ -44,4 +44,13 @@
 </style>
 
 <!-- TypeScript. -->
-<script lang='ts'></script>
+<script lang='ts'>
+	import { base } from '$app/paths';
+
+	/*
+	Add the base URL to the beginning of the path.
+	*/
+	function getUrl(page: string): string {
+		return `${base}/${page}`;
+	}
+</script>
