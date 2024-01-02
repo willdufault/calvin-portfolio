@@ -4,7 +4,7 @@
 		<NavigationBar></NavigationBar>
 		<div class='hero-body'>
 			<div class='hero-body-left'>
-				<img class='hero-image' src='images/calvin-headshot.jpg' alt='Calvin Conboy Headshot'>
+				<img class='hero-image' src='/images/calvin-headshot.jpg' alt='Calvin Conboy Headshot'>
 			</div>
 			<div class='hero-body-right'>
 				<div class='text-wrapper'>
