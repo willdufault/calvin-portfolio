@@ -1,36 +1,35 @@
 <!-- HTML. -->
 <main>
-	<section id='about-me'>
+	<section>
 		<div class='flex-container'>
 			<div class='text-wrapper'>
 				<h1 class='title'>About Me</h1>
 				<div class='description-wrapper'>
 					<p>
-						My name is Calvin Conboy, and I am a current senior at the University of Massachusetts 
-						Amherst, within the Isenberg School of Business. I am a candidate for a BBA in 
-						marketing, along with a minor in economics.
+						My name is Calvin Conboy, and I am a current senior at the
+						University of Massachusetts Amherst, within the Isenberg School of
+						Business. I am a candidate for a BBA in marketing, along with a minor
+						in economics.
 					</p>
 					<p>
-						I've worked in a variety of business settings in a range of positions that have taught 
-						me skills such as productive communication, effort based results, and multi-tasking. 
-						Through a range of written and verbal communication experience, I've learned how to 
-						communicate clearly and directly with customers and co-workers alike. With retail and 
-						professional sales experience, I understand the value of hard work, and how to balance 
-						a range of tasks simultaneously. 
+						Growing up under a small business owner, I have learnt the
+						importance of hard work and the shown outcome that comes with
+						dedication to every task I am working on. My passion for creativity
+						shows through in every project I work on. With a strong belief in the
+						power of effort-based outcomes, I strive to bring a unique and
+						innovative approach to every project I'm assigned. My
+						creativity-forward work approach has not only helped me in my past
+						professional experience, but also in the success when leading projects
+						within educational settings. 
 					</p>
 					<p>
-						The extensive range of classes I have taken at two seperate highly accredited business 
-						schools have taught me skills ranging from entrepreneurial business strategies, to 
-						effective marketing skills. Through my education and prior work experience, I'll bring 
-						energy, compassion, and insight to any task I am assigned.
+						My passions outside of professional settings include attending live
+						events, following the NBA, and spending time outside.
 					</p>
 				</div>
 			</div>
-			<div class='headshot-wrapper'>
-				<img class='headshot'
-				  src='images/calvin-linkedin-pfp.png' 
-					alt='Calvin Conboy Headshot'
-				/>
+			<div class='personal-photo-wrapper'>
+				<img class='personal-photo' src='images/calvin-selfie.png' alt='Calvin Conboy Personal Photo'>
 			</div>
 		</div>
 	</section>
@@ -38,29 +37,22 @@
 
 <!-- CSS. -->
 <style>
-	.flex-container {
-		display: flex;
-		align-items: center;
-		gap: 2rem;
-	}
-
 	.text-wrapper {
 		text-align: center;
 		width: 50%;
 	}
 
 	.description-wrapper {
-		font-size: 1.1rem;
 		display: flex;
 		flex-direction: column;
 		gap: 1rem;
 	}
 
-	.headshot-wrapper {
+	.personal-photo-wrapper {
 		width: 50%;
 	}
 
-	.headshot {
+	.personal-photo {
 		width: 100%;
 		height: auto;
 	}

@@ -1,16 +1,14 @@
-<!-- Set tab icon and title. -->
+<!-- Tab title. -->
 <svelte:head>
-	<link rel='icon' href='favicon.png' />
 	<title>Calvin Conboy | Portfolio</title>
 </svelte:head>
 
 <!-- HTML. -->
 <main>
 	<Hero></Hero>
+	<SectionDivider></SectionDivider>
 	<About></About>
-	<WorkExperience></WorkExperience>
-	<EducationalExperience></EducationalExperience>
-	<Contact></Contact>
+	<Footer></Footer>
 </main>
 
 <!-- CSS. -->
@@ -20,7 +18,6 @@
 <script lang='ts'>
 	import Hero from './hero.svelte';
 	import About from './about.svelte';
-	import WorkExperience from './work-experience.svelte';
-	import EducationalExperience from './educational-experience.svelte';
-	import Contact from './contact.svelte';
+	import Footer from './footer.svelte';
+	import SectionDivider from './section-divider.svelte';
 </script>

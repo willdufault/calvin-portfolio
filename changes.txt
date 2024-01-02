@@ -1,0 +1,13 @@
+1. fix phone number
+2. update headshot
+3. make hero its own page (keep the hero but make it fullheight), about me under the hero, then contact can go underneath and be any height
+4. make work experience and educational experience their own pages
+5. work experience -> professional experience
+6. educational experience is fine
+7. another page in the header (home, professional exp, educational exp, contact)
+8. contact page: put the same info that is in the get in touch but make it the full page
+9. cal will get a photo to replace the isenberg photo
+	- maybe the headshot can be in the hero and about me will be a more casual photo
+10. for edu exp, take isenberg school of management photo and put that with edu exp, keep format of hero but put edu exp TITLE ONLY on the right
+11. put my contact info + credit on the footer
+12. he wants a pdf resume button
