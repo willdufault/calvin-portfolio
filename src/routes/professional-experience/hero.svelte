@@ -5,7 +5,7 @@
 		<div class='hero-body'>
 
 			<div class='hero-body-left'>
-				<img class='hero-image' src='https://contently.net/wp-content/uploads/2014/06/shutterstock_162866975.jpg' alt=''>
+				<img class='hero-image' src='./images/karma-coffee-building.jpg' alt=''>
 			</div>
 			<div class='hero-body-right'>
 				<div class='title-wrapper bold-title-letter-spacing'>

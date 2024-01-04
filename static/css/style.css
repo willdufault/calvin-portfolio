@@ -13,8 +13,10 @@ body {
     color: white;
 }
 
-/* Dark theme. */
+/* Theme colors. */
 :root {
+    --highlight-blue: #5ab8ff;
+    /* Dark theme. */
     color-scheme: dark;
 }
 
@@ -42,11 +44,13 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 1.5rem;
+    gap: 2rem;
 }
 
 .hero-body-left {
     width: 50%;
+    display: flex;
+    justify-content: flex-end;
     text-align: right;
 }
 

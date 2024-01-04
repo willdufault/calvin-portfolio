@@ -6,6 +6,7 @@
 <!-- HTML. -->
 <main>
 	<Hero></Hero>
+	<SectionDivider></SectionDivider>
 	<Experience></Experience>
 	<Footer></Footer>
 </main>
@@ -18,4 +19,5 @@
 	import Hero from './hero.svelte';
 	import Experience from './experience.svelte';
 	import Footer from '../footer.svelte';
+	import SectionDivider from '../section-divider.svelte';
 </script>

@@ -11,36 +11,34 @@
 			</div>
 			<div class='hero-body-right'>
 				<div class='socials-wrapper'>
-					<div class='social'>
+					<a class='social' href='https://linkedin.com/in/calvinconboy' target='_blank'>
 						<div class='icon'>
 							<Icon icon='mdi:linkedin'/>
 						</div>
 						<div class='social-items'>
-							<a href='https://linkedin.com/in/calvinconboy'>calvinconboy</a>
+							<p>calvinconboy</p>
 						</div>
-					</div>
-					<div class='social'>
+					</a>
+					<a class='social' href='mailto:calvinconboy@gmail.com' target='_blank'>
 						<div class='icon'>
 							<Icon icon='clarity:email-line'/>
 						</div>
 						<div class='social-items'>
-							<a href='mailto:calvinconboy@gmail.com'>calvinconboy@gmail.com</a>
-							<br/>
-							<a href='mailto:cconboy@umass.edu'>cconboy@umass.edu</a>
+							<p>calvinconboy@gmail.com</p>
 						</div>
-					</div>
-					<div class='social'>
+					</a>
+					<a href='javascript:;' class='social' on:click={() => copyPhoneNumber()}>
 						<div class='icon'>
 							<Icon icon='ph:phone'/>
 						</div>
 						<div class='social-items'>
-							<a href='' on:click={() => copyPhoneNumber()}>{phone_number}</a>
+							<p>{phone_number}</p>
 						</div>
-					</div>
+					</a>
 				</div>
 			</div>
-			
 		</div>
+		<Footer></Footer>
 	</section>
 </main>
 
@@ -55,6 +53,8 @@
 		display: flex;
 		align-items: center;
 		gap: 0.5rem;
+		color: white;
+		text-decoration: none;
 	}
 
 	.icon {
@@ -62,29 +62,42 @@
 		font-size: 4.5rem;
 	}
 
-	.social-items a {
+	.social-items p {
 		font-size: 1.3rem;
 		color: white;
 		text-decoration: none;
 	}
-	.social:hover .icon, .social:hover .social-items a {
-		color: #5ab8ff;
+	
+	.social:hover .icon, .social:hover p {
+		color: var(--highlight-blue);
 	}
-
 </style>
 
 <!-- TypeScript. -->
 <script lang='ts'>
 	import NavigationBar from '../navigation-bar.svelte';
+	import Footer from '../footer.svelte';
 	import Icon from '@iconify/svelte';
 
+	// Calvin Conboy's phone number.
 	let phone_number: string = '(339) 203-2296'; 
 
+	/*
+	Copy Calvin's phone number to the clipboard and alert the user.
+	*/
 	function copyPhoneNumber(): void {
-		// Copy the phone number to clipboard.
-		navigator.clipboard.writeText(phone_number);
+		// Try to write to the clipboard.
+		navigator.clipboard.writeText(phone_number)
+		.then(() => {
+			// Copy the phone number to clipboard.
+			navigator.clipboard.writeText(phone_number);
 
-		// Alert the user.
-		alert('Phone number copied to clipboard.');
+			// Alert the user.
+			alert('Phone number copied to clipboard.');
+		})
+		.catch((error) => {
+			// Print the error to console.
+			console.error('Failed to copy: ', error);
+		});
 	}
 </script>

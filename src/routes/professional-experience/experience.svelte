@@ -23,7 +23,7 @@
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
-		gap: 4rem;
+		gap: 6rem;
 	}
 
 	.job {
@@ -38,7 +38,8 @@
 	}
 
 	.logo {
-		height: 12rem;
+		max-height: 14rem;
+		max-width: 28rem;
 	}
 
 	.description {
@@ -81,7 +82,7 @@
 			image_alt: 'Aflac Logo',
 		},
 		{
-			company: 'Aflac',
+			company: 'Different Leaf',
 			description: 'Different Leaf Magazine is a "Journal of Cannabis Culture". As an intern, I \
 			completed a variety of different tasks across all areas of the publishing process. I worked \
 			directly alongside the head publisher to find high-end cannabis companies to partner with on a \

@@ -8,6 +8,8 @@
 	<Hero></Hero>
 	<SectionDivider></SectionDivider>
 	<About></About>
+	<SectionDivider></SectionDivider>
+	<Contact></Contact>
 	<Footer></Footer>
 </main>
 
@@ -19,5 +21,6 @@
 	import Hero from './hero.svelte';
 	import About from './about.svelte';
 	import Footer from './footer.svelte';
+	import Contact from './contact.svelte';
 	import SectionDivider from './section-divider.svelte';
 </script>
