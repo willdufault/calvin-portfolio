@@ -5,7 +5,7 @@
 		<div class='hero-body'>
 
 			<div class='hero-body-left'>
-				<img class='hero-image' src='./images/karma-coffee-building.jpg' alt=''>
+				<img class='hero-image' src='./images/karma-coffee-building.jpg' alt='Karma Coffee Building'>
 			</div>
 			<div class='hero-body-right'>
 				<div class='title-wrapper bold-title-letter-spacing'>

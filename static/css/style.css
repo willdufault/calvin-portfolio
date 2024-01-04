@@ -20,14 +20,6 @@ body {
     color-scheme: dark;
 }
 
-/* Preload carousel images. */
-body::after {
-    width: 0;
-    height: 0;
-    content: url('/images/calvin-headshot.jpg'), url('./images/calvin-forest.png'),
-        url('./images/calvin-carhartt.png'), url('./images/calvin-pizza.png');
-}
-
 /* Global styles. */
 section {
     padding: 6rem 16%;
