@@ -3,10 +3,8 @@
 	<section class='hero'>
 		<NavigationBar></NavigationBar>
 		<div class='hero-body'>
-			<div class='hero-body-left hide-overflow-x'>
-				<div class='carousel-wrapper'>
-					<Carousel></Carousel>
-				</div>
+			<div class='hero-body-left'>
+				<img class='hero-image' src='./images/calvin-headshot.jpg' alt='Calvin Conboy Headshot'>
 			</div>
 			<div class='hero-body-right'>
 				<div class='text-wrapper'>
@@ -31,14 +29,6 @@
 
 <!-- CSS. -->
 <style>
-	.carousel-wrapper {
-		width: 70%;
-	}
-
-	.hide-overflow-x {
-		overflow-x: hidden;
-	}
-
 	.title-wrapper {
 		font-size: 8rem;
 		width: fit-content;

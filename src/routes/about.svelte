@@ -28,8 +28,8 @@
 					</p>
 				</div>
 			</div>
-			<div class='personal-photo-wrapper'>
-				<img class='personal-photo' src='./images/calvin-selfie.png' alt='Calvin Conboy Personal Photo'>
+			<div class='carousel-wrapper hide-overflow-x'>
+				<Carousel></Carousel>
 			</div>
 		</div>
 	</section>
@@ -48,15 +48,16 @@
 		gap: 1rem;
 	}
 
-	.personal-photo-wrapper {
+	.carousel-wrapper {
 		width: 50%;
 	}
 
-	.personal-photo {
-		width: 100%;
-		height: auto;
+	.hide-overflow-x {
+		overflow-x: hidden;
 	}
 </style>
 
 <!-- TypeScript. -->
-<script lang='ts'></script>
+<script lang='ts'>
+	import Carousel from './carousel.svelte';
+</script>

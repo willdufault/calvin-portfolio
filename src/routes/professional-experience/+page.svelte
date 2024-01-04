@@ -8,6 +8,8 @@
 	<Hero></Hero>
 	<SectionDivider></SectionDivider>
 	<Experience></Experience>
+	<SectionDivider></SectionDivider>
+	<Contact></Contact>
 	<Footer></Footer>
 </main>
 
@@ -18,6 +20,7 @@
 <script lang='ts'>
 	import Hero from './hero.svelte';
 	import Experience from './experience.svelte';
+	import Contact from '../contact.svelte';
 	import Footer from '../footer.svelte';
 	import SectionDivider from '../section-divider.svelte';
 </script>

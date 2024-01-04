@@ -4,7 +4,7 @@
 		<div class='jobs-wrapper'>
 			{#each experiences as experience, index}
 				<div class={'job' + (index % 2 == 1 ? ' job-reverse' : '')}>
-					<img class='logo' src={experience.image_url} alt={experience.image_alt}>
+					<img class='logo' src={experience.image_url} alt={experience.image_alt} loading='lazy'>
 					<p class='description'>{experience.description}</p>
 				</div>
 			{/each}

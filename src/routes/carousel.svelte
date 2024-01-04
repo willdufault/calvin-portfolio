@@ -4,10 +4,10 @@
 		<!-- Second set of images needed for seamless loop. -->
 		{#each {length: 2} as _}
 			<div class='images'>
-				<img src='./images/calvin-headshot.jpg' alt='Calvin Conboy Headshot'>
-				<img src='./images/calvin-forest.png' alt='Calvin Conboy Forest'>
-				<img src='./images/calvin-carhartt.png' alt='Calvin Conboy Carhartt'>
-				<img src='./images/calvin-pizza.png' alt='Calvin Conboy Pizza'>
+				<img src='./images/calvin-selfie.png' alt='Calvin Conboy Selfie' loading='lazy'>
+				<img src='./images/calvin-forest.png' alt='Calvin Conboy Forest' loading='lazy'>
+				<img src='./images/calvin-carhartt.png' alt='Calvin Conboy Carhartt' loading='lazy'>
+				<img src='./images/calvin-pizza.png' alt='Calvin Conboy Pizza' loading='lazy'>
 			</div>
 		{/each}
 	</div>

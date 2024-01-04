@@ -20,7 +20,7 @@
 <script lang='ts'>
 	import Hero from './hero.svelte';
 	import About from './about.svelte';
-	import Footer from './footer.svelte';
 	import Contact from './contact.svelte';
+	import Footer from './footer.svelte';
 	import SectionDivider from './section-divider.svelte';
 </script>
