@@ -69,7 +69,7 @@
 			of skills that involved every aspect of a company. Recently, I have worked as the head of \
 			hiring for the company, creating and maintaining job postings for all positions for the \
 			business.',
-			image_url: './images/karma-coffee-logo.png',
+			image_url: './images/karma-coffee-logo.jpg',
 			image_alt: 'Karma Coffee Logo',
 		},
 		{
@@ -78,7 +78,7 @@
 			business sales through phone, and in-person meetings with local businesses throughout eastern \
 			Massachusetts, Connecting with over 25 businesses daily. Along with sales, I studies market \
 			trends to identify optimal marketing tactics for small businesses.',
-			image_url: './images/aflac-logo.png',
+			image_url: './images/aflac-logo.jpg',
 			image_alt: 'Aflac Logo',
 		},
 		{
@@ -91,7 +91,7 @@
 			in January of 2024 as a re-release of a 70\'s tennis and squash apparel line that utilized the \
 			Japanese maple leaf as it\'s logo. My work was used in both the Fall and Summer 2023 \
 			publications.',
-			image_url: './images/different-leaf-logo.png',
+			image_url: './images/different-leaf-logo.jpg',
 			image_alt: 'Different Leaf Logo',
 			
 		}

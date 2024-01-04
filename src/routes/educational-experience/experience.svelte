@@ -3,7 +3,7 @@
 	<section>
 		<div class='experiences-wrapper'>
 			<div class='experience'>
-				<img class='logo' src='./images/acknowledged-logo.png' alt='Acknowledged Logo' loading='lazy'>
+				<img class='logo' src='./images/acknowledged-logo.jpg' alt='Acknowledged Logo' loading='lazy'>
 				<div class='text-wrapper'>
 					<h1 class='experience-title'>Sustainable Marketing / Sustainable Business (Marketing 491SM)</h1>
 					<br/>
@@ -21,8 +21,8 @@
 			</div>
 			<div class='experience experience-reverse'>
 				<div class='logos-wrapper'>
-					<img class='logo' src='./images/cvs-health-logo.png' alt='CVS Health Logo' loading='lazy'>
-					<img class='logo logo-small' src='./images/pchc-logo.png' alt='PCHC Logo' loading='lazy'>
+					<img class='logo' src='./images/cvs-health-logo.jpg' alt='CVS Health Logo' loading='lazy'>
+					<img class='logo logo-small' src='./images/pchc-logo.jpg' alt='PCHC Logo' loading='lazy'>
 				</div>
 				<div class='text-wrapper'>
 					<h1 class='experience-title'>

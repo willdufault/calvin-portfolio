@@ -4,7 +4,7 @@
 		<NavigationBar></NavigationBar>
 		<div class='hero-body'>
 			<div class='hero-body-left'>
-				<img class='hero-image' src='./images/isenberg.png' alt='Isenberg School of of Management'>
+				<img class='hero-image' src='./images/isenberg.jpg' alt='Isenberg School of of Management'>
 			</div>
 			<div class='hero-body-right'>
 				<div class='title-wrapper bold-title-letter-spacing'>
