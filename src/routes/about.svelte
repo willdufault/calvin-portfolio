@@ -12,7 +12,7 @@
 						in economics.
 					</p>
 					<p>
-						Growing up under a small business owner, I have learnt the
+						Growing up under a small business owner, I have learned the
 						importance of hard work and the shown outcome that comes with
 						dedication to every task I am working on. My passion for creativity
 						shows through in every project I work on. With a strong belief in the
